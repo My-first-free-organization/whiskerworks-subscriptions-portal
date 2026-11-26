@@ -1,4 +1,4 @@
 # Changelog
 
-## 0.3.0
-- subscriptions improvements batch 2
+## 0.4.0
+- subscriptions improvements batch 3
