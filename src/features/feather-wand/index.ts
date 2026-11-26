@@ -9,7 +9,7 @@ export interface FeatherWandRequest {
 
 export class FeatherWandService {
   private readonly log = new Logger('feather-wand');
-  private readonly maxRetries = 3;
+  private readonly maxRetries = 4;
 
   async handle(req: FeatherWandRequest): Promise<boolean> {
     if (!req.sku || req.quantity <= 0) {
