@@ -1,2 +1,8 @@
 # whiskerworks-subscriptions-portal
-WhiskerWorks subscriptions portal: part of the cat-commerce platform
+
+Owns the **subscriptions** domain of WhiskerWorks.
+
+## Run
+```bash
+npm ci && npm run dev
+```

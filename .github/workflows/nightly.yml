@@ -1,0 +1,14 @@
+name: Shop Nightly
+on:
+  workflow_dispatch:
+    inputs:
+      suite:
+        default: smoke
+  schedule:
+    - cron: '40 2 * * *'
+jobs:
+  e2e:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: echo "suite ${{ inputs.suite || 'smoke' }}"
