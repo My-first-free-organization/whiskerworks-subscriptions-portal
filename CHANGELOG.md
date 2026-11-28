@@ -1,4 +1,4 @@
 # Changelog
 
-## Sprint 146
-- subscriptions-portal: maintenance and dependency updates (2026-11-28 08:10)
+## Sprint 147
+- subscriptions-portal: maintenance and dependency updates (2026-11-28 14:04)
