@@ -1,4 +1,4 @@
 # Changelog
 
-## 0.4.0
-- subscriptions improvements batch 3
+## Sprint 147
+- subscriptions-portal: maintenance and dependency updates (2026-11-28 14:04)
